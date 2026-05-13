@@ -82,6 +82,7 @@ int main()
     }
     else
     {
+        printf("\n%d",dominator);
         printf("\nNo dominator");
     }
 
