@@ -35,6 +35,11 @@ Algorithm findDominator(A, i, N, cand, cnt)
 Algorithm main()
 {
     read N
+    if N = 0 then
+    {
+        write "No dominator found."
+        return
+    }
     for i ← 0 to N - 1 step 1 do
     {
         read A[i]
