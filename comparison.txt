@@ -10,3 +10,24 @@ TIME COMPLEXITY
   
   if the size of input = 0 --> program terminate immediately
   else it will continue 
+
+PERFORMANCE
+
+    Non-recursive version is faster in practice because it avoids
+    recursive function call overhead and repeated stack frame creation.
+
+    Recursive version performs additional work for each function call,
+    such as storing parameters, return addresses, and local variables
+    in the call stack.
+
+
+MEMORY USAGE
+
+    Non-recursive version uses stack memory only 
+    because the array is allocated as a local variable,
+    and execution stays in a single function stack frame.
+
+    Recursive version uses both heap and stack:
+    the array is allocated dynamically in heap memory,
+    while each recursive call creates additional stack frames 
+    for parameters and return addresses
