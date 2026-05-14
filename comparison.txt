@@ -1,0 +1,12 @@
+TIME COMPLEXITY
+ 
+  +----------------+-------------------+------------------------
+  |  Case          |  Recursive        |  Non-Recursive        |
+  +----------------+-------------------+------------------------
+  |  Best Case     |  O(1)             |  O(1)                 |
+  |  Average Case  |  O(n)             |  O(n)                 |
+  |  Worst Case    |  O(n)             |  O(n)                 |
+  +----------------+-------------------+-----------------------
+  
+  if the size of input = 0 --> program terminate immediately
+  else it will continue 

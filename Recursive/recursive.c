@@ -54,6 +54,12 @@ int main()
     printf("Enter N: ");
     scanf("%d", &N);
 
+    if (N == 0)
+    {
+        printf("No dominator found.\n");
+        return 0;
+    }
+
     int *A = malloc(N * sizeof(int));
 
     for (int i = 0; i < N; i++)
@@ -82,7 +88,7 @@ int main()
     }
     else
     {
-        printf("\n%d",dominator);
+        printf("\n%d", dominator);
         printf("\nNo dominator");
     }
 
